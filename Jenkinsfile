@@ -9,7 +9,7 @@ pipeline {
                     dir("law-office") {
                         deleteDir()
                     }
-                    sh 'echo "TEST IT NOW Jenkins" > jenkins.txt'
+                    sh 'echo "TEST IT WITH ME NOW Jenkins" > jenkins.txt'
                     sh 'git clone git@github.com:dmitryro/law-office.git'
                 }
             }
